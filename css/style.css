@@ -238,7 +238,7 @@ header nav ul li{
 
 .about h2{
     color: #9792E4;
-    font-size: 1.5rem;
+    font-size: 50px;
 }
 .about p{
     padding: 15px  0px;
@@ -255,13 +255,13 @@ header nav ul li{
 }
 .about .help h4{
     color: #9792E4;
-    font-size: 2rem;
+    font-size: 25px;
     line-height: 39px;
 }
 .about .help .fa-quote-left{
     position: absolute;
-    top: 5%;
-    left: 35%;
+    top: 20px;
+    left: 150px;
     font-size: 5rem;
     color: #9792E4;
 }
@@ -276,6 +276,58 @@ header nav ul li{
     padding: 0px 10px;
 }
 
+
+/* GET STARTED */
+
+.get-start{
+    background-color: #9792E4;
+}
+.get-start .start{
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    width: 85%;
+    max-width: 650px;
+}
+
+.start h4{
+    color: #D3D1F3;
+    letter-spacing: .8rem;
+}
+.start h3{
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+.start h2{
+    color:#FCC15F;
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+.start p{
+    line-height: 1.8rem;
+}
+.start .btn{
+    padding: 20px 0px;
+    width: 240px;
+    margin: 0 auto;
+}
+.start .btn a{
+    color: #9792E4;
+}
+.start span{
+    font-size: .9rem;
+}
+.start span a{
+    color: white;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #333333;
+    height: 230px;
+}
 
 /* MEDIA QUERY */
 
@@ -306,6 +358,14 @@ header nav ul li{
     }
     .row .benefit{
         width: 49%;
+    }
+
+    .about{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about .text{
+        padding-right:80px;
     }
 
 
