@@ -327,7 +327,25 @@ header nav ul li{
 footer{
     background-color: #333333;
     height: 230px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+.footer-top{
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 650px;
+    width: 85%;
+}
+
+.footer-bottom a{
+    color: #9792E4;
+}
+
+
 
 /* MEDIA QUERY */
 
