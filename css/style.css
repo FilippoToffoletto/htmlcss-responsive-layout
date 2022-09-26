@@ -117,6 +117,52 @@ header nav ul li{
     padding: 15px auto;
 }
 
+
+/* SECTION VIOLA */
+
+.viola{
+    background-color: #9792E4;
+    padding-bottom: 60px;
+}
+.viola  h2{
+    font-size: 1.5rem;
+    padding: 25px 0px;
+    font-weight: bold;
+}
+
+.planning{
+    color: white;
+}
+.viola .app-dev{
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px 0px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.app-dev{
+    font-style: italic;
+    line-height: 1.5rem;
+}
+.app-dev .btn{
+    display: inline-block;
+    padding: 20px 0px;
+}
+.app-dev .btn a{
+    background-color: #9792E4;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
 /* MEDIA QUERY */
 
 @media (min-width:376px){
@@ -143,6 +189,18 @@ header nav ul li{
     .box-card .card{
         max-height: 350px;
     }
+    .viola .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: calc(100% / 1.5);
+    }
+    .viola .container .planning {
+        max-width: 49%;
+        padding: 20px;
+        padding-top: 40px;
+    }
+
 }
 
 
