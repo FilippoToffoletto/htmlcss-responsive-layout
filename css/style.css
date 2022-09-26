@@ -193,6 +193,46 @@ header nav ul li{
     font-size: 2rem;
 }
 
+/* BENEFITS */
+.benefits{
+    background-color: #9792E4;
+    margin: 50px 0px;
+    padding-bottom: 30px;
+}
+
+.benefits .title h4{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 60px 0px;
+}
+.benefits .benefit{
+    background-color: white;
+    color: #9792E4;
+    padding: 25px 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.benefit h2{
+    font-size: 3rem;
+}
+.benefit h3{
+    font-size: 1.5rem;
+    padding: 15px 0px;
+}
+.benefit p{
+    color: #8D8D8D;
+}
+.benefit .btn{
+    padding: 15px 0px;
+}
+.benefit .btn a{
+    background-color: #9792E4;
+    text-align: center;
+    max-width: 140px;
+    color: white;
+}
+
     
 
 
@@ -217,6 +257,15 @@ header nav ul li{
     .profile .text{
         padding: 20px;
     }
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .row .benefit{
+        width: 49%;
+    }
 
 
 }
@@ -240,6 +289,9 @@ header nav ul li{
         max-width: 49%;
         padding: 20px;
         padding-top: 40px;
+    }
+    .row .benefit{
+        width: 32%;
     }
 
 }
